@@ -1,0 +1,10 @@
+body {
+  background-color: lightgreen;
+}
+h1 {
+  color: white;
+  text-align: center;
+  display:inline;}
+p {
+  font-family: verdana;
+  font-size: 20px;
