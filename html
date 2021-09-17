@@ -1,0 +1,203 @@
+
+<html>
+<body>
+
+<h2>My web page</h2>
+<img src="https://images.theconversation.com/files/243439/original/file-20181101-83635-1xcrr39.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop" alt="lion" width="300" height="333">
+
+</body>
+</html>
+
+<table style=table {
+  font-family: arial, 
+  border-collapse: collapse;"width:50%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jack</td>
+    <td>Lewis</td> 
+    <td>45</td>
+  </tr>
+  <tr>
+    <td>Sammy</td>
+    <td>Max</td> 
+    <td>24</td>
+  </tr>
+</table>
+<html>
+<body>
+
+<h2 style="border-style: groove;"> Bio Data</h2>
+  
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <label for="DOB">Date Of Birth:</label><br>
+  <input type="numbers" id="DOB"><br>
+  
+  <input type="submit" value="Submit">
+</form> 
+  <!DOCTYPE html>
+
+  <html>
+<head>
+  <div id="app-2">
+  <span v-bind:title="message">
+ Hover your mouse over me for a few seconds
+ to see my dynamically bound title!
+ 
+<div id="app-3">
+  <span v-if="seen">Now you see me</span>
+  
+ <div id="app-7">
+  <ol>
+    <!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<body>
+
+<h2>Vue demo</h2>
+
+<div id="app">
+  <ul>
+    <li v-for="x in todos">
+      {{ x.text }}
+    </li>
+  </ul>
+</div>
+
+<script>
+myObject = new Vue({
+  el: '#app',
+  data: {
+    todos: [
+      { text: 'fries' },
+      { text: 'fish' },
+      { text: 'whatever else humans are supposed to eat' }
+    ]
+  }
+})
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<body>
+
+<h2>Vue demo 2</h2>
+
+<div id="app">
+  <p>{{ welcome to vue.js }}</p>
+  <p><input v-model="message"></p>
+</div>
+
+<script>
+myObject = new Vue({
+  el: '#app7',
+  data: {message: 'Hello welcome to Vue.js!'}
+})
+  <div id="app">
+  <p>{{ message }}</p>
+  <p><input v-model="message"></p>
+</div>
+</script>
+ <section id="login" v-bind:class="isShake">
+ <form>
+  <h2>Login</h2>
+  <div class="info" v-bind:class="good">
+   <p>{{ alert.message }}</p>
+   <p v-show="login.login && login.password">{{ login.login}} / {{ login.password}}</p>
+  </div>
+  <input type="text" v-model="login.login" placeholder="Username" />
+  <input type="password" v-model="login.password" placeholder="Password" />
+   <input type="email" v-model="login.email" placeholder="Email" />
+  <button v-on:click="onSubmit">Log in</button>
+ </form>
+</section>
+</body>
+</html>
+    <div id="v-model-multiple-checkboxes" class="demo">
+  <input type="checkbox" id="jack" value="Jack" v-model="checkedNames" />
+  <label for="jack">Jack</label>
+  <input type="checkbox" id="john" value="John" v-model="checkedNames" />
+  <label for="john">John</label>
+  <input type="checkbox" id="mike" value="Mike" v-model="checkedNames" />
+  <label for="mike">Mike</label>
+  <br />
+  <span>Checked names: ()</span>
+
+      
+      <div id="v-model-select" class="demo">
+  <select v-model="selected">
+    <option disabled value="">Please select one</option>
+    <option>A</option>
+    <option>B</option>
+    <option>C</option>
+  </select>
+  <span>Selected: {{ selected }}</span>
+</div>
+</div>
+<div id="app">
+   <section class="hero is-fullheight is-warning is-bold">
+     <div class="hero-body">
+       <div class="container">
+         <p class="title is-1">{{ title }}</p>
+         <p class="subtitle is-3">{{ subtitle }}</p>
+         <!-- Renders "Hello from the parent!" -->
+        <child-component>
+          <p slot="bottom">Let's move this into the bottom slot</p>
+          <p>Hello from the parent!</p>
+          <p slot="top">Let's move this into the top slot</p>
+        </child-component>
+        <!-- Renders "Hello from the child!" -->
+        <child-component></child-component>
+       </div>
+     </div>
+  </section>
+</div>
+
+<script type="text/x-template" id="child-component">
+  <div>
+    <!-- Elements injected with the `slot="top"`
+    attribute will end up in here. -->
+    <slot name="top">
+    </slot>
+    <!-- A slot tag without a name is a catch-all,
+    it will contain any content that doesn't have
+    a `slot=""` attribute. -->
+    <slot>
+      <p>Hello from the child!</p>
+    </slot>
+    <!-- Elements injected with the `slot="bottom"`
+    attribute will end up in here. -->
+    <slot name="bottom">
+    </slot>
+  </div>
+</script>
+
+
+</div>
+    </div>
+  </div>
+  
+  
+
+
+
+
+
+
+
+</body>
+</html>
+
+
